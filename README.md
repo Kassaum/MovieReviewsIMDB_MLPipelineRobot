@@ -7,7 +7,7 @@ Project: IMDBReviews // Datasets: test and train // ML Package: IMDBReviews: ML 
 
 ### Package
 
-This model is a deep learning architecture for language classification. It is based on RoBERTa, a self-supervised method for pretraining natural language processing systems. A GPU can be used both at serving time and training time. A GPU delivers ~5-10x improvement in speed. The original paper can be found here https://arxiv.org/abs/1907.11692 by Yinhan Liu, Myle Ott et al. The model was open-sourced by Facebook AI Research.
+This model is a deep learning architecture for language classification. It is based on RoBERTa, a self-supervised method for pretraining natural language processing systems. The original paper can be found here https://arxiv.org/abs/1907.11692 by Yinhan Liu, Myle Ott et al. The model was open-sourced by Facebook AI Research.
 
 ## Robot / Pipeline
 
