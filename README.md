@@ -15,3 +15,4 @@ This model is a deep learning architecture for language classification. It is ba
 2. Classify the review
 3. Add the result to the train data in AI Center
 4. If the classification of the review have a less then 0.7 confidence a task is created in Orchestrator for manual classification
+5. The model used by the robot can be updated from AI Center with no need for a new publish
