@@ -147,7 +147,7 @@
                       <av:Point x:Key="ShapeLocation">312.5,448.5</av:Point>
                       <av:Size x:Key="ShapeSize">145,87</av:Size>
                       <av:PointCollection x:Key="TrueConnector">312.5,492 282.5,492 282.5,491.52 210,491.52</av:PointCollection>
-                      <av:PointCollection x:Key="FalseConnector">457.5,492 487.5,492 487.5,550 550,550</av:PointCollection>
+                      <av:PointCollection x:Key="FalseConnector">457.5,492 487.5,492 487.5,610 530,610</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <FlowDecision.True>
@@ -182,12 +182,12 @@
                     <FlowStep x:Name="__ReferenceID2">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <av:Point x:Key="ShapeLocation">550,517</av:Point>
+                          <av:Point x:Key="ShapeLocation">530,577</av:Point>
                           <av:Size x:Key="ShapeSize">200,66</av:Size>
-                          <av:PointCollection x:Key="ConnectorLocation">650,583 650,613 110,613 110,517.02</av:PointCollection>
+                          <av:PointCollection x:Key="ConnectorLocation">630,643 630,673 110,673 110,517.02</av:PointCollection>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="Task for Human Validation" sap:VirtualizedContainerService.HintSize="376,1108" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                      <Sequence DisplayName="Task for Human Validation" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_1">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
