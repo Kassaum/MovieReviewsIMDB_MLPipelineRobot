@@ -90,7 +90,7 @@
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">540,224.5</av:Point>
           <av:Size x:Key="ShapeSize">200,51</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">640,275.5 640,399.5</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">640,275.5 640,339.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Get Reviews" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" LogEntry="No" LogExit="No" UnSafe="False" WorkflowFileName="Get_Review.xaml">
@@ -112,10 +112,10 @@
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              <av:Point x:Key="ShapeLocation">605,399.5</av:Point>
+              <av:Point x:Key="ShapeLocation">605,339.5</av:Point>
               <av:Size x:Key="ShapeSize">70,87</av:Size>
-              <av:PointCollection x:Key="TrueConnector">605,443 575,443 575,373 485,373</av:PointCollection>
-              <av:PointCollection x:Key="FalseConnector">675,443 705,443 705,373 785,373</av:PointCollection>
+              <av:PointCollection x:Key="TrueConnector">605,383 575,383 575,373 485,373</av:PointCollection>
+              <av:PointCollection x:Key="FalseConnector">675,383 705,383 705,373 785,373</av:PointCollection>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <FlowDecision.True>
